@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 public class Fallen {
     @Autowired
     private Dormant beast1;
-    public Fallen(Dormant beast1){
+    public Fallen(Dormant beast1){ //Constructor Injection
         this.beast1 = beast1;
     }
 
     private Dev dev;
     @Autowired
-    public void setDev(Dev  dev){
+    public void setDev(Dev  dev){ //Setter Injection
         this.dev = dev;
     }
 
